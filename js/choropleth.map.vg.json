@@ -5,7 +5,7 @@
     "height": 400,
     "projection": {"type": "equalEarth"},
     "data": {
-      "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3003-Week-9-Homework/main/js/ne_110m.topojson",
+      "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Week-9-Homework/main/js/ne_110m.topojson",
       "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
     },
     "layer":[
@@ -32,7 +32,7 @@
             "lookup": "properties.NAME",
             "from": {
               "data": {
-                "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3003-Week-9-Homework/main/data/InternetUser.csv"
+                "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Week-9-Homework/main/data/InternetUser.csv"
               },
               "key": "Country or Area",
               "fields": ["Percentage","Internet Users","Population"]
